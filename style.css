@@ -1,0 +1,745 @@
+html {
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Poppins:wght@300;400;600&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, #1a001f, black);
+    color: white;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: black;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h3 {
+    color: hotpink;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+}
+
+.hero-text p {
+    color: lightgray;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: hotpink;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* HERO IMAGE */
+.hero-img img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+/* QUOTE */
+.quote {
+    text-align: center;
+    padding: 30px;
+    font-style: italic;
+    color: #f5d0fe;
+}
+
+/* STORIES */
+.stories {
+    text-align: center;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: hotpink;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
+
+/* ABOUT HERO */
+.about-hero {
+    text-align: center;
+    padding: 40px;
+}
+
+/* CONTAINER (FIXES YOUR LAYOUT ISSUE) */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+}
+
+/* TEXT SIDE */
+.about-text {
+    width: 50%;
+}
+
+.about-text h2 {
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    color: lightgray;
+}
+
+/* QUOTE STYLE */
+.quote-line {
+    font-style: italic;
+    color: #f5d0fe;
+}
+
+/* IMAGE SIDE (FIX BIG IMAGE ISSUE) */
+.about-img img {
+    width: 300px;
+    /* SIZE CONTROL */
+    border-radius: 15px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-links a {
+    margin: 10px;
+    color: hotpink;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    background: purple;
+    transition: 0.3s;
+}
+
+/* CONTACT SECTION */
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+    background: #0a0a0a;
+}
+
+.contact h2 {
+    color: #ff4ecd;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact a {
+    color: #ff4ecd;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: hotpink;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background: purple;
+    transform: scale(1.05);
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px hotpink;
+}
+
+.hero-img img {
+    transition: 0.3s;
+}
+
+.hero-img img:hover {
+    transform: scale(1.05);
+}
+#typing {
+    font-size: 18px;
+    color: #f5d0fe;
+    margin-top: 10px;
+    min-height: 24px;
+}
+#typing {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* HINAL PAGE DESIGN */
+
+.story-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    background: linear-gradient(to right, #1a001f, #3a003f);
+}
+
+.story-left h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.urdu {
+    font-size: 26px;
+    color: #ff4ecd;
+}
+
+.story-right {
+    font-size: 18px;
+    color: #f5d0fe;
+}
+
+/* ABOUT SECTION */
+.story-about {
+    text-align: center;
+    padding: 60px 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.story-about h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.story-about p {
+    margin-bottom: 15px;
+    color: lightgray;
+    line-height: 1.6;
+}
+
+.quote-line {
+    font-style: italic;
+    color: #ffb3ec;
+    margin-top: 20px;
+}
+
+.status {
+    margin-top: 20px;
+    color: #ff4ecd;
+    font-weight: bold;
+}
+/* CHARACTERS PAGE */
+
+.characters {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #0a0a0a, #1a001f);
+}
+
+.characters h2 {
+    color: #ff4ecd;
+    margin-bottom: 40px;
+}
+
+.character-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.character {
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.character:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px #ff4ecd;
+}
+
+.character img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.character h3 {
+    margin-top: 15px;
+    color: white;
+}
+
+.dialogue {
+    margin-top: 10px;
+    font-style: italic;
+    color: #f5d0fe;
+}
+.characters {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.characters h2 {
+    color: #ff4ecd;
+    margin-bottom: 40px;
+}
+
+.character-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.character {
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.character:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #ff4ecd;
+}
+
+.character img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.character h3 {
+    margin: 10px 0;
+}
+.dialogue {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 22px;   /* size bara */
+    color: #f5d0fe;
+    margin-top: 10px;
+    line-height: 2;
+    direction: rtl;
+    text-align: center;
+}
+/* MODAL BACKGROUND */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+/* MODAL BOX */
+.modal-content {
+    background: #111;
+    margin: 15% auto;
+    padding: 30px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 20px #ff4ecd;
+}
+
+/* CLOSE BUTTON */
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* URDU TEXT */
+#modal-text {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 24px;
+    margin-top: 20px;
+    direction: rtl;
+}
+/* HINAL HERO SECTION */
+.hero-hinal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: linear-gradient(135deg, #2a002f, #000);
+}
+
+/* TEXT SIDE */
+.hero-hinal .hero-text {
+    width: 50%;
+}
+
+.hero-hinal h1 {
+    font-size: 40px;
+}
+
+.hero-hinal h3 {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    color: #ff4ecd;
+    font-size: 28px;
+}
+
+.tagline {
+    margin-top: 15px;
+    color: #f5d0fe;
+    font-size: 18px;
+}
+
+/* IMAGE SIDE */
+.hero-hinal .hero-img img {
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 0, 150, 0.5);
+    transition: 0.3s;
+}
+
+.hero-hinal .hero-img img:hover {
+    transform: scale(1.05);
+}
+.view-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background: linear-gradient(45deg, #ff4ecd, #a855f7);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.view-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff4ecd;
+}
+.mini-btn {
+    display: block;
+    margin-top: 8px;
+    padding: 6px 12px;
+    font-size: 12px;
+    background: transparent;
+    border: 1px solid hotpink;
+    color: hotpink;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.mini-btn:hover {
+    background: hotpink;
+    color: white;
+}
+.card .view-btn {
+    margin-top: 8px;
+    display: block;
+}
+/* HINAL & MAKHTOOM HERO SAME STYLE */
+.hinal-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: linear-gradient(to right, #1a001f, #3a003f);
+}
+
+.urdu-title {
+    font-size: 28px;
+    color: #ff4ecd;
+    margin-top: 10px;
+    direction: rtl;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.tagline {
+    margin-top: 10px;
+    color: lightgray;
+}
+
+/* STORY DETAIL */
+.story-detail {
+    text-align: center;
+    padding: 60px;
+}
+
+.story-detail p {
+    max-width: 700px;
+    margin: 15px auto;
+    color: lightgray;
+}
+
+/* STATUS */
+.status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* QUOTE STYLE */
+.quote {
+    text-align: center;
+    padding: 40px;
+    font-style: italic;
+    color: #f5d0fe;
+}
+
+.card a {
+    color: #ff4ecd;
+    text-decoration: none;
+}
+
+.card .view-btn {
+    color: white !important;
+}
+.featured-quote {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #f5d0fe;
+    font-style: italic;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff4ecd;
+    text-shadow: 0 0 10px #ff4ecd;
+}
+.hero-text h1 {
+    font-size: 38px;
+    line-height: 1.4;
+}
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #ff4ecd, #a855f7);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 20px #ff4ecd;
+}
+.scene-page {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.scene-page h2 {
+    color: #ff4ecd;
+    margin-bottom: 30px;
+}
+
+.scene-box {
+    max-width: 800px;
+    margin: auto;
+    background: #0a0a0a;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.scene-box p {
+    margin-bottom: 15px;
+    color: #ddd;
+}
+
+.urdu {
+    font-size: 20px;
+    direction: rtl;
+    text-align: right;
+    color: #f5d0fe;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+.urdu-title {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 32px;
+    text-align: center;
+    color: #ff4ecd;
+    margin-bottom: 20px;
+}
+
+.scene-box {
+    max-width: 800px;
+    margin: auto;
+    background: #0a0a0a;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 2;
+}
+/* SCENE PAGE */
+.scene {
+    padding: 60px 20px;
+    text-align: center;
+    background: radial-gradient(circle at top, #1a001f, black);
+}
+
+/* Title */
+.scene h2 {
+    color: #ff4ecd;
+    margin-bottom: 10px;
+}
+
+/* Urdu Title */
+.urdu-title {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 32px;
+    color: #ff4ecd;
+    margin-bottom: 20px;
+}
+
+/* Location */
+.location {
+    color: lightgray;
+    margin-bottom: 30px;
+}
+
+/* Urdu Text */
+.urdu-text {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    direction: rtl;
+    text-align: right;
+    font-size: 20px;
+    line-height: 2.2;
+    max-width: 800px;
+    margin: auto;
+    color: #f5d0fe;
+}
+.scene-lines {
+    text-align: right;
+    direction: rtl;
+    line-height: 2;
+    font-size: 20px;
+    color: #f5d0fe;
+    margin: 20px 0;
+}
+.quote-box {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 0, 150, 0.3);
+
+    box-shadow: 0 0 25px rgba(255, 0, 150, 0.3);
+
+    backdrop-filter: blur(10px);
+}
+
+.quote-box p {
+    font-size: 20px;
+    font-style: italic;
+    color: #f5d0fe;
+    line-height: 1.8;
+}
+.quote-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 40px hotpink;
+    transition: 0.3s;
+}

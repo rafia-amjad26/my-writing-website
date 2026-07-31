@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hinal Characters | Rafia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Hinal Characters</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="hinal.html">Hinal</a>
+        <a href="makhtoom.html">Makhtoom</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<section class="characters">
+
+    <h2>Main Characters</h2>
+
+    <div class="character-cards">
+
+        <!-- HINAAL -->
+        <div class="character" onclick="openModal('hinal')">
+            <img src="qamar.jpg">
+            <h3>Hinaal Qamar</h3>
+
+            <p class="dialogue">
+                "حنال قمر... آہ، میرا تو نام ہی کافی ہے۔"
+            </p>
+        </div>
+
+        <!-- ARHAM -->
+        <div class="character" onclick="openModal('arham')">
+            <img src="arham.jpg">
+            <h3>Arham bin Ahyaan</h3>
+
+            <p class="dialogue">
+                "الفاظوں سے توڑ سکتا ہوں، ہتھیار کس کو چاہیے؟"
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p id="modal-text"></p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Rafia</p>
+</footer>
+
+<script>
+function openModal(character) {
+    let text = "";
+
+    if(character === "hinal") {
+        text = "حنال قمر... آہ، میرا تو نام ہی کافی ہے۔";
+    }
+    else if(character === "arham") {
+        text = "الفاظوں سے توڑ سکتا ہوں، ہتھیار کس کو چاہیے؟";
+    }
+
+    document.getElementById("modal-text").innerHTML = text;
+    document.getElementById("modal").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+}
+</script>
+
+</body>
+</html>
